@@ -1,0 +1,7 @@
+;Q1] PRN:25070521508 
+ORG 0000H
+MOV A, #15
+MOV B, #100
+MUL AB
+ADD A, #08
+END ; output = acc 5E4
